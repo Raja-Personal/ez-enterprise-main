@@ -1,0 +1,57 @@
+@import "./quasar.variables.scss";
+@import "@/library/styles/index.scss";
+
+body {
+  background-color: $gray-2;
+  color: $gray-10;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  background-color: $gray-3;
+}
+
+.round-borders {
+  border-radius: 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid $gray-3;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+.box-shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba($gray-10, 0.075);
+}
+
+.box-shadow-md {
+  box-shadow: 0 0.5rem 1rem rgba($gray-10, 0.15);
+}
+
+.box-shadow-lg {
+  box-shadow: 0 1rem 3rem rgba($gray-10, 0.175);
+}
+
+.drop-shadow {
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+
+.link {
+  color: $secondary;
+  font-size: 12px;
+  font-weight: 500;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

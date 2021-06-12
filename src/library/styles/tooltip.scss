@@ -1,0 +1,83 @@
+/* tooltip dark */
+
+.tippy-box[data-theme~="dark"] {
+  background-color: $gray-8;
+  color: $gray-1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.tippy-box[data-theme~="dark"][data-placement^="top"] > .tippy-arrow::before {
+  border-top-color: $gray-8;
+}
+.tippy-box[data-theme~="dark"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: $gray-8;
+}
+.tippy-box[data-theme~="dark"][data-placement^="left"] > .tippy-arrow::before {
+  border-left-color: $gray-8;
+}
+.tippy-box[data-theme~="dark"][data-placement^="right"] > .tippy-arrow::before {
+  border-right-color: $gray-8;
+}
+
+/* ... */
+
+/* tooltip primary */
+
+.tippy-box[data-theme~="primary"] {
+  background-color: $primary;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.tippy-box[data-theme~="primary"][data-placement^="top"]
+  > .tippy-arrow::before {
+  border-top-color: $primary;
+}
+.tippy-box[data-theme~="primary"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: $primary;
+}
+.tippy-box[data-theme~="primary"][data-placement^="left"]
+  > .tippy-arrow::before {
+  border-left-color: $primary;
+}
+.tippy-box[data-theme~="primary"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: $primary;
+}
+
+/* ... */
+
+/* tooltip secondary */
+
+.tippy-box[data-theme~="secondary"] {
+  background-color: $secondary;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.tippy-box[data-theme~="secondary"][data-placement^="top"]
+  > .tippy-arrow::before {
+  border-top-color: $secondary;
+}
+.tippy-box[data-theme~="secondary"][data-placement^="bottom"]
+  > .tippy-arrow::before {
+  border-bottom-color: $secondary;
+}
+.tippy-box[data-theme~="secondary"][data-placement^="left"]
+  > .tippy-arrow::before {
+  border-left-color: $secondary;
+}
+.tippy-box[data-theme~="secondary"][data-placement^="right"]
+  > .tippy-arrow::before {
+  border-right-color: $secondary;
+}
+
+/* ... */
