@@ -4,7 +4,7 @@
       <div class="q-px-md">
         <!-- get started -->
 
-        <div class="text-3 text-gray-6 q-mb-md">Get started with settings</div>
+        <div class="text-3 text-gray-6 q-mb-md">Get started with settings menu</div>
 
         <div class="q-mb-lg border border-gray-3 rounded-borders q-pa-xs">
           <img
@@ -18,7 +18,7 @@
 
         <!-- quick access -->
 
-        <div class="text-3 text-gray-6 q-mb-md">Quick access Menu</div>
+        <div class="text-3 text-gray-6 q-mb-md">Quick access</div>
 
         <div
           v-for="menu in menus"
