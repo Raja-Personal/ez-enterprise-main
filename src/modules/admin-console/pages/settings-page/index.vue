@@ -18,7 +18,7 @@
 
         <!-- quick access -->
 
-        <div class="text-3 text-gray-6 q-mb-md">Quick access</div>
+        <div class="text-3 text-gray-6 q-mb-md">Quick access1</div>
 
         <div
           v-for="menu in menus"
